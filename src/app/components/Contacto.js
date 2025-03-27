@@ -16,7 +16,7 @@ function Contacto() {
             </p>
             <div className="contacto-wpp-mobile">
               <Image
-                src="/WhatsApp.png"
+                src="/Whatsapp-logo.svg"
                 alt="WhatsApp"
                 width={100}
                 height={100}
