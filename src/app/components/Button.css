@@ -1,0 +1,36 @@
+.button-wpp {
+    background-color: #FFF;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    justify-content: center;
+}
+
+.button-wpp:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+    transform: scale(1.01);
+  }
+
+.button-wpp-img {
+    width: 26px;
+    height: 26px;
+}
+
+.button-wpp-text {
+    color: #28A745;
+    font-weight: 800;
+    margin-left: 2px;
+}
+
+@media screen and (max-width: 968px){
+    .button-wpp-text{
+        font-size: 0.8em;
+    }
+}

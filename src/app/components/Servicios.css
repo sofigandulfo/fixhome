@@ -1,0 +1,254 @@
+.servicios {
+    padding: 80px;
+}
+
+.servicio-cucarachas {
+    display: flex;
+    flex-direction: row;
+}
+
+.servicio-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicio-texto {
+    margin-top: 60px;
+}
+
+.servicio-title {
+    color: #2B5784;
+    font-size: 2em;
+}
+
+.servicio-desc {
+    color: #333;
+    font-size: 1em;
+    margin: 13px 10px 42px 0;
+}
+
+.servicio-subtitle {
+    font-size: 1.25em;
+    color: #333;
+}
+
+.servicio-lista {
+    display: flex;
+    flex-direction: column;
+    margin: 12px 62px 18px 0;
+}
+
+.servicio-item {
+    display: flex;
+    flex-direction: row;
+    padding: 11px 50px 0 0;
+}
+
+.servicio-item p {
+    margin: 0px 0px 5.5px 11px;
+    color: #333;
+}
+
+.imagen-cucaracha {
+    margin: 0 0 100px 90px;
+}
+
+.imagen-cucaracha-mobile{
+    display: none;
+}
+
+
+.servicio-btn{
+    margin: 18px 0 0 0;
+}
+
+/* roedores */
+
+.servicio-roedores {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.imagen-roedores {
+    margin-right: 120px;
+}
+
+.imagen-roedores-mobile{
+    display: none;
+}
+
+/* OTROS SERVICIOS */
+
+.otros-title {
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+    margin: 60px 0 30px;
+}
+
+.swiper {
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+  
+
+.cards {
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 2px solid #2B5784;
+    border-radius: 10px;
+    padding: 15px 18px 18px;
+    min-height: 355px;
+    width: min(278px, 90%);
+    min-width: 250px; 
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 4px 25px 6px rgba(0, 0, 0, 0.25);
+}
+
+.card-title {
+    color: #2B5784;
+    font-size: 1.375em;
+    margin-bottom: 10px;
+}
+
+.card-desc {
+    color: #333;
+    font-size: 1em;
+    flex-grow: 1;
+    margin: 32px 0;
+}
+
+.card-boton button {
+    color: #FDFEFC;
+    background-color: #2B5784;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.card-boton button:hover {
+    background-color: #1f3c63;
+}
+
+@media screen and (max-width: 968px){
+    .servicios {
+        padding: 10px 16px 50px;
+    }
+
+    .servicio-cucarachas{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .servicio-texto{
+        margin: 0;
+        text-align: center;
+    }
+    
+    .servicio-title{
+        font-size: 1.5em;
+        align-items: center;
+    }
+
+    .servicio-desc{
+        text-align: center;
+    }
+
+    .servicio-subtitle{
+        text-align: start;
+        font-size: 1em;
+    }
+
+    .imagen-cucaracha{
+        display: none;
+    }
+
+    .imagen-cucaracha-mobile{
+        display: flex;
+        justify-content: center;
+        margin: 30px 0;
+    }
+
+    .servicio-lista{
+        margin: 5px 0 18px;
+        align-items: flex-start;
+    }
+    .servicio-item{
+        padding: 11px 0;
+        text-align: start;
+    }
+
+    .servicio-btn{
+        margin: 0;
+    }
+
+    /* ROEDORES */
+
+    .servicio-roedores{
+        flex-direction: column;
+    }
+
+    .imagen-roedores {
+        display: none;
+    }
+    
+    .imagen-roedores-mobile{
+        display: flex;
+        justify-content: center;
+        margin: 30px 0;
+    }
+
+    .servicio-texto{
+        margin: 40px 0 0;
+    }
+
+    .otros-title{
+        font-size: 1.5em;
+        margin: 60px 0 0;
+    }
+
+    .card {
+        margin: 0 auto;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px; /* Ajusta la separación */
+    }
+
+    .swiper {
+        width: 100%;
+        margin: auto;
+        padding: 40px 20px /* Reducido de 40px a 20px */
+    }
+
+    .swiper-slide {
+        min-width: 250px;
+        max-width: 100%;
+        display: flex;
+        justify-content: center; /* No deja que se achiquen demasiado */
+    }
+}

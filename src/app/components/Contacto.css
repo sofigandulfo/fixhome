@@ -1,0 +1,102 @@
+.contacto{
+    background-color:#2B5784;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto-info-div{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 80px;
+    margin: 0 90px;
+}
+
+.contacto-title{
+    font-size: 3em;
+    color: #FDFEFC;
+}
+
+.contacto-subtitle{
+    font-size: 1.75em;
+    color: #FDFEFC;
+    margin: 55px 0 13px;
+}
+
+.contacto-desc{
+    font-size: 1.125em;
+    color: #FDFEFC;
+}
+
+.contacto-info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px 0 0 ;
+}
+
+.contacto-text{
+    color: #FDFEFC;
+    font-size: 1em;
+}
+
+.contacto-wpp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.button-wpp{
+    margin: 5px 0; 
+}
+
+.contacto-wpp-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 968px) {
+
+    .contacto-wpp {
+        display: none;
+    }
+
+    .contacto-wpp-mobile{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin: 40px 0;
+        align-items: center;
+    }
+
+    .contacto-title {
+        font-size: 1.5em;
+    }
+
+    .contacto-subtitle {
+        font-size: 1.25em;
+        margin: 30px 0 16px;
+        text-align: center;
+    }
+
+    .contacto-desc {
+        text-align: center;
+    }
+
+    .contacto-container {
+        margin: 0;
+    }
+}
