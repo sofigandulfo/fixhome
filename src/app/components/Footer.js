@@ -23,11 +23,11 @@ function Footer() {
         <div className="footer-contact">
           <h2 className="footer-contact-title">CONTACTANOS</h2>
           <a className="footer-contact-text">
-            <Image src="/Phone.svg" alt="Icono de teléfono" width={20} height={20} />
+            <Image src="/phone-alt.svg" alt="Icono de teléfono" width={16} height={16} className="footer-icono"/>
             +54 266 501-5101
           </a>
           <a className="footer-contact-text" href="mailto:consultasfixhome@gmail.com">
-            <Image src="/Mail.svg" alt="Icono de correo" width={20} height={20} />
+            <Image src="/mail.svg" alt="Icono de correo" width={16} height={16} className="footer-icono"/>
             consultasfixhome@gmail.com
           </a>
           <a className="footer-contact-text" href="https://www.instagram.com/fixhomesanluis/" rel="noopener noreferrer" target="_blank">

@@ -48,6 +48,10 @@
     gap: 5px;
 }
 
+.footer-icono{
+    margin: 0 2px 0; /* Ajusta el padding según lo necesites */
+}
+
 @media screen and (max-width: 968px) {
     .footer-container {
         align-items: start;
