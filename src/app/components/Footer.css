@@ -48,8 +48,10 @@
     gap: 5px;
 }
 
-.footer-icono{
-    margin: 0 2px 0; /* Ajusta el padding según lo necesites */
+.footer-icono {
+    min-width: 16px;
+    min-height: 16px;
+    margin: 0 2px 0;
 }
 
 @media screen and (max-width: 968px) {

@@ -7,7 +7,7 @@ function Button({ text, showImage = true, phoneNumber, message }) {
   return (
     <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="button-wpp">
       {showImage && (
-        <Image className="button-wpp-img" src="/WhatsApp.svg" alt="Icono de WhatsApp" width={20} height={20} />
+        <Image className="button-wpp-img" src="/Whatsapp-logo.svg" alt="Icono de WhatsApp" width={20} height={20} />
       )}
         <p className="button-wpp-text">{text}</p>
     </a>
