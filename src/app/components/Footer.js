@@ -27,7 +27,7 @@ function Footer() {
             +54 266 501-5101
           </a>
           <a className="footer-contact-text" href="mailto:consultasfixhome@gmail.com">
-            <Image src="/mail.svg" alt="Icono de correo" width={16} height={16} className="footer-icono"/>
+            <Image src="/correo.png" alt="Icono de correo" width={17} height={17} className="footer-icono"/>
             consultasfixhome@gmail.com
           </a>
           <a className="footer-contact-text" href="https://www.instagram.com/fixhomesanluis/" rel="noopener noreferrer" target="_blank">
