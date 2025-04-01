@@ -14,7 +14,7 @@
 
 .contacto-info-div{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .contacto-container{
@@ -98,5 +98,10 @@
 
     .contacto-container {
         margin: 0;
+    }
+
+    
+    .contacto-info-div{
+        justify-content: center;
     }
 }
