@@ -19,13 +19,18 @@ export const metadata = {
   icons: {
     icon: "/favicon.ico", // Para navegadores estándar
     shortcut: "/favicon.ico", // Para algunos navegadores antiguos
-    apple: "/favicon.ico", // Para dispositivos Apple (opcional)
+    apple: "/apple-touch-icon.png", // Para dispositivos Apple (opcional)
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
       <Header />
         {children}
